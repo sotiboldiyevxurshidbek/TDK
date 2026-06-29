@@ -1,0 +1,44 @@
+:root {
+  /* Ranglar — Light mode */
+  --color-navy-900: #0B1B3A;
+  --color-navy-700: #16294F;
+  --color-gold-500: #C9A24A;
+  --color-paper: #F7F8FB;
+  --color-surface: #FFFFFF;
+  --color-ink: #0F1726;
+  --color-ink-soft: #4A5468;
+  --color-border: rgba(15, 23, 38, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.65);
+
+  /* Shrift */
+  --font-display: "Spectral", "PT Serif", Georgia, serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* O'lchamlar */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 7rem;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  --shadow-md: 0 12px 32px rgba(11, 27, 58, 0.08);
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --color-navy-900: #0B1B3A;
+  --color-gold-500: #E2C77A;
+  --color-paper: #060D1E;
+  --color-surface: #0E1B33;
+  --color-ink: #E7EAF0;
+  --color-ink-soft: #9AA4BC;
+  --color-border: rgba(231, 234, 240, 0.1);
+  --glass-bg: rgba(14, 27, 51, 0.6);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
